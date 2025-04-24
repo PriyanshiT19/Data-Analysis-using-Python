@@ -295,7 +295,7 @@ plt.title('Outlier Detection: Yield (Log Scale)')
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
-
+#fig
 plt.figure(figsize=(12, 6))
 sns.scatterplot(data=df_top, x='Year', y='Yield', hue='Crop')
 plt.yscale('log')  # Also use log for yield if range is large
