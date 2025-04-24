@@ -20,7 +20,7 @@ print(df.describe())
 
 print("\n------ INFO ------")
 print(df.info())
-
+#no. of columns
 print("\n------ COLUMNS ------")
 print(df.columns.tolist())
 
