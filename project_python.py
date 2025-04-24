@@ -225,7 +225,7 @@ plt.xticks(ticks=range(filtered_data['Year'].min(), filtered_data['Year'].max() 
 
 plt.tight_layout()
 plt.show()
-
+#strt
 # -------------------------Objective 2-------------------------------------------------
 # Crop Yield Calculation and Comparison:
 # To measure the efficiency of crop production in terms of land used.
