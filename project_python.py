@@ -272,7 +272,7 @@ def detect_outliers_iqr(column):
 
 outliers_prod = detect_outliers_iqr('Production')
 outliers_yield = detect_outliers_iqr('Yield')
-
+# fig
 plt.figure(figsize=(12, 6))
 sns.boxplot(data=df_top, x='Crop', y='Production')
 plt.yscale('log')  # Log scale for better visibility
