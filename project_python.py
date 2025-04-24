@@ -26,7 +26,7 @@ print(df.columns.tolist())
 #no of rows
 print("\n------ SHAPE ------")
 print("Number of Rows and Columns:", df.shape)
-
+#null
 print("\n------ NULL VALUES ------")
 print(df.isnull().sum())
 
