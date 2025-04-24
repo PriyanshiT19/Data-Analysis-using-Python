@@ -23,7 +23,7 @@ print(df.info())
 #no. of columns
 print("\n------ COLUMNS ------")
 print(df.columns.tolist())
-
+#no of rows
 print("\n------ SHAPE ------")
 print("Number of Rows and Columns:", df.shape)
 
