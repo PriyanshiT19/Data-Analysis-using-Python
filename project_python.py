@@ -165,7 +165,7 @@ plt.xlim(0, 50000)
 
 plt.tight_layout()
 plt.show()
-
+#plt show
 # Log transformation of Area
 df_cleaned = df[df['Area'] > 0].copy()
 df_cleaned['log_area'] = np.log1p(df_cleaned['Area'])  # log(Area + 1) to avoid log(0)
