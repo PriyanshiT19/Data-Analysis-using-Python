@@ -338,7 +338,7 @@ plt.show()
 # -----------------------------------------Objective 5-------------------------------------------------------
 # Season-wise Production Distribution:
 # To analyze how production varies by agricultural season.
-
+#fig
 plt.figure(figsize=(10, 6))
 sns.boxplot(data=df, x='Season', y='Production', palette='Set2')
 
