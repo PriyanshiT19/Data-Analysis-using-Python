@@ -89,7 +89,7 @@ print("\n TOTAL ROWS:", len(df))
 print(" COLUMNS WITH MISSING VALUES:")
 print(df.columns[df.isnull().any()])
 
-# --------------------------------------EDA(Exploratory Data Analysis)---------------------------------------
+# --------------------------------------EDA(Exploratory Data Analysis)---------------------------------------#
 
 # 1. Basic Info & Structure
 print(" First 5 Rows:")
