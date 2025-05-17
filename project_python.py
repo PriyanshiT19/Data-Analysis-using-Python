@@ -32,7 +32,7 @@ print(df.isnull().sum())
 
 print("\n------ DUPLICATE VALUES ------")
 print("Total Duplicates:", df.duplicated().sum())
-
+#.
 print("\n------ DATA TYPES ------")
 print(df.dtypes)
 
